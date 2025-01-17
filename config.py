@@ -10,7 +10,7 @@ class Config:
     BOT_TOKEN = environ.get("BOT_TOKEN", "7682001331:AAEK2STwbhYf2eY1U2t09D4gOvSh-hXp29o") 
     BOT_SESSION = environ.get("BOT_SESSION", "venom") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Spacious:AEIOU@99.in@cluster0.qhrhu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-    DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
+    DATABASE_NAME = environ.get("DATABASE_NAME", "cluster0")
     BOT_OWNER = int(environ.get("BOT_OWNER", "1654334233"))
 
 # Don't Remove Credit Tg - @VJ_Botz
